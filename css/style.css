@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#3ef;
+}
+.login{
+	width:400px;
+	margin:100px auto;
+	border:solid 1px #000;
+	padding:20px;
+}
+.login table{
+	width:100%;
+}
+input{
+	padding:5px;
+	width:100%;
+}
+.error{
+	color:#fff;
+	background:#550000;
+	padding:2px;
+	margin-bottom:5px;
+	border:solid 1px #ff0000;
+}
+.page{
+	width:90%;
+	margin:10px auto;
+	min-height:90%;
+}
+.navigation{
+	height : 40px;
+    margin-top: 10px;
+	border : solid 1px #000;
+	background : green;
+}
+.header, .footer{
+	height:60px;
+	border:solid 1px #000;
+	background:#ededed;
+}
+.container{
+	margin:10px 0;
+}
+.container > *{
+	min-height:650px;
+}
+.sidebar{
+	width:20%;
+	float:left;
+	border-right: dashed 2px #efefef;
+
+}
+.sidebar2{
+	width: 20%;
+	float:right;
+	border-left:dashed 2px #efefef  ;
+}
+.content{
+	width:50%;
+	float:left;
+	
+}
